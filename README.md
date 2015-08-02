@@ -10,7 +10,7 @@ Go checkout the headers for production versions [here](https://github.com/ryngon
 mv ~/Downloads/class-dump /usr/local/bin
 ```
 2. Use `make` to generate headers, or do it manually yourself using `class-dump`.
-#### Production
+*Production*:
 ```bash
 make production version=3.3.2
 ```
@@ -18,7 +18,7 @@ Or
 ```
 cd dumps/production && mkdir $(version) && cd $(version) && class-dump /Applications/Sketch.app/Contents/MacOS/Sketch -H
 ```
-#### Beta
+*Beta*:
 ```bash
 make production version=3.4.0.build_number
 ```

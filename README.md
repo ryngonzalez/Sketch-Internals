@@ -2,7 +2,7 @@
 The raw dumps of Sketch internals for different versions of Sketch — useful for Sketch Plugin developers to keep track of the hidden nooks and crannies of the app runtime.
 
 ## Usage
-Go checkout the headers for production versions [here](https://github.com/ryngonzalez/Sketch-Internals-Documentation/blob/master/dumps/production), and the beta dumps [here](https://github.com/ryngonzalez/Sketch-Internals-Documentation/blob/master/dumps/beta).
+Go checkout the headers for production versions [here](https://github.com/ryngonzalez/Sketch-Internals/blob/master/dumps/production), and the beta dumps [here](https://github.com/ryngonzalez/Sketch-Internals/blob/master/dumps/beta).
 
 ## Contributing
 

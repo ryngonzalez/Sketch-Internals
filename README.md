@@ -9,7 +9,6 @@ Go checkout the headers for production versions [here](https://github.com/ryngon
 ```bash
 mv ~/Downloads/class-dump /usr/local/bin
 ```
-
 2. Use `make` to generate headers, or do it manually yourself using `class-dump`.
 #### Production
 ```bash
@@ -27,5 +26,4 @@ Or
 ```bash
 cd dumps/beta && mkdir $(version) && cd $(version) && class-dump /Applications/Sketch\ Beta.app/Contents/MacOS/Sketch\ Beta -H
 ```
-
 3. Open up a Pull Request for review!

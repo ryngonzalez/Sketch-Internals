@@ -35,3 +35,6 @@ cd dumps/beta && mkdir $(version) && cd $(version) && class-dump /Applications/S
 
 ### Contribute Back
 Open up a Pull Request for review!
+
+## License
+All intellectual property of Bohemian Coding, makers of Sketch. Merely used as a learning resource for people looking to contribute to the plugin ecosystem.

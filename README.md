@@ -6,13 +6,13 @@ Go checkout the headers for production versions [here](https://github.com/ryngon
 
 ## Contributing
 
-### Install `class-dump`
+### 1. Install `class-dump`
 Go download `class-dump` from [here](http://stevenygard.com/projects/class-dump/) and add it to your path.
 ```bash
 mv ~/Downloads/class-dump /usr/local/bin
 ```
 
-### Generate headers
+### 2. Generate headers
 Use `make` to generate headers, or do it manually yourself using `class-dump`.
 
 #### Production:
@@ -33,7 +33,7 @@ Or, do it manually
 cd dumps/beta && mkdir $(version) && cd $(version) && class-dump /Applications/Sketch\ Beta.app/Contents/MacOS/Sketch\ Beta -H
 ```
 
-### Contribute Back
+### 3. Contribute Back
 Open up a Pull Request for review!
 
 ## License
